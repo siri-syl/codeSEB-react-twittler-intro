@@ -160,7 +160,7 @@ import userEvent from '@testing-library/user-event';
 // 여기부터는 Advanced Challenge 테스트입니다. xdescribe를 describe로 바꾸고 테스트를 진행해보세요.
 // 필수 과제는 아닙니다.
 
-xdescribe('Advanced Challenge', () => {
+describe('Advanced Challenge', () => {
   test('Font Awesome을 npm으로 설치해야 합니다. (@fortawesome/react-fontawesome)', async () => {
     let haveFontAwesomeFree = false;
     let haveReactFontAwesome = false;
